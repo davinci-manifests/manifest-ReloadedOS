@@ -6,12 +6,12 @@ To get started with ReloadedOS, you'll need to [set up a Linux build environment
 
 To initialize the ReloadedOS sources locally, use a command like this:
 ```
- repo init -u https://github.com/ReloadedOS/manifest -b t
+ repo init -u https://github.com//manifest-ReloadedOS/manifest -b t
 ```
 
 Then to sync up:
 ```
- repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune --retry-fetches=5 -j$(nproc --all)
+repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 ```
 
 ## Finally, to build
